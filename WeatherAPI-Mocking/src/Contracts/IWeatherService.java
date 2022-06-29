@@ -1,6 +1,8 @@
 package Contracts;
 
-public interface IWeatherService {
+
+public interface IWeatherService 
+{	
     public String getCurrentWeather(String cityName);
 
     public String getCurrentWeather(int cityId);
